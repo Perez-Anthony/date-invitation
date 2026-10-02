@@ -1,0 +1,30 @@
+html {
+  background-color: lightblue;
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+button{
+  padding: 15px 30px;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: lightpink;
+  color: white;
+
+
+}
+
+button:hover{
+  transform: scale(1.1);
+  transition: transfor 0.5s;
+}
+
+.hidden{
+  display: none;
+}
